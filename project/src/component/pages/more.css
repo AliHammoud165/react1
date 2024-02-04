@@ -1,0 +1,33 @@
+.main-todo{
+    padding: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+.box-todo{background-color: green;
+    height: fit-content;
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+.input{
+height: 50px;
+width: 100%;
+color: white;}
+
+
+input{
+    height: 70%;
+    width: 70%;
+}
+
+.things{
+    color: white;
+    height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+}

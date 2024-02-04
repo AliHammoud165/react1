@@ -1,0 +1,98 @@
+
+.main{
+    height: 100px;
+    width: 100%;
+    background-color: bisque;
+display: flex;    
+}
+
+.logo{
+    font-size: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    font-weight: bold;
+    color: grey;
+    text-shadow:3px 1px 7px black;
+
+}
+.elements{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.element
+{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+.element:hover{
+  text-shadow:3px 1px 7px black;
+}
+.main{
+    width: 100%;
+}
+.stufs{
+   
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.stuf{
+    height: 70%;
+    width: 20%;
+  box-shadow:3px 3px 13px 0px black;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  color: gray;
+}
+
+
+#one{
+margin-left: 20px;
+}
+#three{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 750px) {
+  .stufs{
+   
+    height: 300px;
+    width: 100%;
+display: inline;
+}
+
+#one{
+margin-left: 45%;
+}
+.stuf{
+    height: 70%;
+    width: 20%;
+  box-shadow:3px 3px 13px 0px black;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  color: gray;
+  margin-left: 45%;
+  margin-bottom: 20px;
+}
+}
